@@ -1,0 +1,55 @@
+.ImageUpload{
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-top: solid lightgray;
+    /* position: fixed;
+    bottom: 0; */
+}
+
+.imageupload_progress{
+    width: 95%;
+    align-items: center;
+    margin: auto;
+}
+
+.img_up{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    /* margin: auto; */
+    align-items: center;
+}
+
+.input_caption{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.file_up{
+    /* width: 25%; */
+    /* align-items: center; */
+    flex: 0;
+    padding: 10px;
+}
+
+.btn_up{
+    width: 100%;
+    /* flex: 0; */
+    padding: 50px;
+}
+
+.btn_up:hover{
+    color: lightseagreen;
+}
